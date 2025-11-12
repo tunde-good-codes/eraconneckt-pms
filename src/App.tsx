@@ -1,7 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import React, { useEffect } from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { ReactQueryDevtools } from "react-query-devtools";
 import "./App.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -72,7 +71,6 @@ function App() {
 					<Footer />
 				</BrowserRouter>
 
-				<ReactQueryDevtools initialIsOpen={false} />
 			</QueryClientProvider>
 		</>
 	);
