@@ -1,0 +1,79 @@
+button.button {
+  font-size: 12px;
+}
+
+
+.btn,
+.button-line {
+  letter-spacing: 0;
+  -o-transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+  cursor: pointer;
+  user-select: none;
+  -webkit-transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+  -ms-transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.btn:before,
+.btn:after {
+  content: "";
+  position: absolute;
+  transition: inherit;
+  z-index: -1;
+}
+
+.btn:hover:before {
+  transition-delay: 0s;
+}
+
+.button:before {
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.button:after {
+  bottom: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  background: var(--inv);
+}
+
+.button:hover:before {
+  left: 0;
+  width: 100%;
+}
+
+.button:hover:after {
+  top: 0;
+  height: 100%;
+}
+
+.primary-button:hover {
+  background-color: var(--white-color) !important;
+  border-color: var(--primary-color) !important;
+  color: var(--primary-color) !important;
+}
+
+.secondary-button:hover {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  color: var(--white-color) !important;
+}
+
+.tertiary-button:hover {
+  background-color: var(--black-color) !important;
+  border-color: var(--white-color) !important;
+  color: var(--white-color) !important;
+}
+
+@media screen and (min-width: 768px) {
+  button.button {
+    font-size: 1rem;
+  }
+}

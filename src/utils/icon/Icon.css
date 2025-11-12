@@ -1,0 +1,19 @@
+.icon-div {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+    -o-border-radius: 5px;
+    color: var(--white-color);
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+  }
+  
+  .icon-div a {
+    color: var(--white-color);
+  }

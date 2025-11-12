@@ -1,0 +1,173 @@
+* {
+  /* border: 1px solid red; */
+}
+
+a,
+a:link,
+a:active,
+a:hover {
+  text-decoration: none;
+}
+
+a,
+a:link,
+a:active {
+  /* color: var(--primary-color); */
+}
+
+.displayNone {
+  display: none !important;
+}
+
+.heading {
+  color: var(--primary-color);
+}
+
+.clamped-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.errorMsg,
+.input-error::placeholder {
+  color: var(--danger-color);
+  font-size: small;
+}
+
+.input-success::placeholder {
+  color: var(--success-color);
+  font-size: small;
+}
+
+.errorMsg {
+  font-size: small;
+  margin-top: 8px;
+}
+
+.input-error {
+  border: 1px solid var(--danger-color) !important;
+}
+
+.input-success {
+  border: 1px solid var(--success-color) !important;
+}
+
+.clamped-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.display-contents {
+  display: contents;
+}
+
+.align-self-end {
+  align-self: flex-end;
+}
+
+.justify-content-end {
+  justify-content: end !important;
+}
+
+section:not(:last-child),
+section.section:not(:last-child) {
+  margin-bottom: 5rem;
+}
+
+section,
+section.section,
+footer,
+header {
+  width: 100%;
+  max-width: 1920px;
+  padding: 0;
+}
+
+section:not(:first-child),
+section.section:not(:first-child),
+footer {
+  margin-top: 5rem;
+}
+
+.errorMsg {
+  font-size: small;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.icon-toggler {
+  cursor: pointer;
+  position: relative;
+  right: -90%;
+  top: -15vmin;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+/* Hide number arrows in inputs */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox and others*/
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input:focus,
+input:target,
+input:active,
+input:focus-within,
+input:focus-visible {
+  background-color: transparent !important;
+}
+
+@media screen and (min-width: 768px) {
+  .icon-toggler {
+    top: -7vmin;
+  }
+}
+
+[data-reach-dialog-content] {
+  width: 98vw !important;
+  margin: 10vh auto;
+  background: var(--white-color);
+  padding: 2rem;
+  outline: none;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+@media screen and (min-width: 769px) {
+  [data-reach-dialog-content] {
+    width: 50vw !important;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .show-on-large-screen {
+    display: block !important;
+    max-width: var(--dashboard-sidebar-width) !important;
+  }
+}

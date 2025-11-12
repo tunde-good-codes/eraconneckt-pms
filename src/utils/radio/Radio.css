@@ -1,0 +1,15 @@
+input[type="radio"] {
+  height: 1.2rem;
+  width: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+input[type="radio"] {
+	margin: 0;
+}
+
+input[type="radio"],
+label {
+	display: inline;
+	vertical-align: top;
+}

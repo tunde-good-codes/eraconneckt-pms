@@ -1,0 +1,69 @@
+@import url("../src/utils/utils.css");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400&family=Lato:wght@400;700&display=swap');
+/* * {
+  border: 1px solid #f00;
+} */
+
+
+
+
+:root {
+  --primary-color: #201F4F;
+  --secondary-color: #EB8145;
+  --secondary-color-light:#FEEFE7;
+  --tertiary-color: #b4b4b4;
+  --whitesmoke-color: #303030;
+  --white-color: #fff;
+  --foundation-color: #0D0D21;
+  --success-color: #5cb85c;
+  --danger-color: #dc3545;
+  --warning-color: #f3bb1c;
+  --text-color: #babac8;
+  --gray-text-color: #4d4c72;
+  --grey-text-color: #909091;
+  --dark-grey-background-color: #f6f6f6;
+  --scrollbarBG: var(--primary-color);
+  --thumbBG: var(--secondary-color);
+}
+
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--white-color);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: var(--white-color) !important;
+  isolation: isolate;
+  -webkit-tap-highlight-color: transparent; /* for removing the highlight */
+}
+
+body::-webkit-scrollbar {
+  width: 11px;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

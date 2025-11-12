@@ -1,0 +1,27 @@
+.subtitle {
+  font-size: 0.925rem;
+  line-height: 1.8rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin: 1rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .subtitle {
+    font-size: 1.15rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .subtitle {
+    line-height: 2rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+
+  .subtitle {
+    line-height: 2.55rem;
+    font-size: 1rem;
+  }
+}
