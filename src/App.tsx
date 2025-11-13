@@ -43,6 +43,7 @@ function App() {
 		<>
 			<QueryClientProvider client={queryClient}>
 				<SectionStyle />
+				
 				<ToastContainer
 					position="top-right"
 					autoClose={5000}
@@ -70,7 +71,6 @@ function App() {
 
 					<Footer />
 				</BrowserRouter>
-
 			</QueryClientProvider>
 		</>
 	);

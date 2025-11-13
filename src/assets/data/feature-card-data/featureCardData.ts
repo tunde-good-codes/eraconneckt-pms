@@ -5,7 +5,7 @@ export const featureCardData: IFeatureCard = [
 		id: 0,
 		title: "Workforce Management",
 		description:
-			"Take Control of Your Workforce Like Never Before!Effortlessly manage schedules, track performance, and optimize productivity—all in one powerful system. Say goodbye to chaos and hello to seamless workforce management",
+			"Take Control of Your Workforce Like Never Before! Effortlessly manage schedules, track performance, and optimize productivity—all in one powerful system. Say goodbye to chaos and hello to seamless workforce management",
 		icon: "https://res.cloudinary.com/bacf/image/upload/v1735049589/HRTechish/icon-park-solid_success_fjnfsw.svg",
 		featureItems: [
 			"Time Tracking: Monitor work hours with automated time logs.",
